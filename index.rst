@@ -44,6 +44,7 @@ Who are you?
    :caption: PROCEDURE FOR HANDLING
 
    PriseEnCharge/Connexion.rst
+   PriseEnCharge/ConfigurationPrix.rst
    PriseEnCharge/GestDossMed.rst
 
 .. toctree::

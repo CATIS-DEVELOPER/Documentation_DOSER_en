@@ -1,171 +1,323 @@
+
 Patient Medical Records Management
 ==================================
-Right after logging into your account, you will have access to a home page where a list of existing medical records will be presented.
+Right after logging into your account, you will have access to a home page where the list of existing medical records is displayed.
 
 .. image:: ../Images/img-hopit/accue_hop.jpg
     :name: Hospital agent home page.
 .. centered:: Hospital agent home page.
 
-This interface allows you to add medical records to link victims to accidents reported by the collecting officer.
+.. _refProcedureAddMedicalRecord:
 
-Add a Medical Record
-====================
-Here, when an accident victim arrives at the hospital, the hospital agent creates a medical record to enter various details about the accident and the patient. To do this, several information fields must be filled out.
+Adding a Medical Record
+=======================
 
-Basic Information
------------------
-At this stage, the hospital agent enters all the patient's information.
+Click on **+** to access the interface that allows you to add medical records.
+These medical records help manage the patient's hospitalization, their care, 
+and ensure the connection of accident victims to the accidents declared by the collection agent.
+Here, when an accident victim arrives at the hospital, 
+the hospital agent creates a medical record, then fills in various information about the accident and the patient. 
+To do this, several information fields must be completed.
 
 .. image:: ../Images/img-hopit/ajouter_dos.jpg
-.. centered:: Basic Information.
+.. centered:: Basic information.
 
-Accident-related Information
-----------------------------
-At this stage, the hospital agent enters all the accident information.
+As we can see, the information to be completed includes:
 
-.. image:: ../Images/img-hopit/acc_inf.jpg
-.. centered:: Accident-related Information.
+* Basic patient information
+* Information related to the accident
+* A description of the patient
+* Medical parameters
+* The patient's address
 
-Description
------------
-In this section, you must add a description of what you observe about the patient.
+.. image:: ../Images/img-hopit/ajouterAutre_dos.jpg
+.. centered:: Other patient information.
 
-.. image:: ../Images/img-hopit/desc.jpg
-.. centered:: Description.
+Do not forget to enter the patient's contacts.
+This is done by clicking the **+** button as shown in the following image:
 
-Medical Parameters
--------------------
-Fill in the fields based on the observations made on the patient.
+**NB:** You can add as many contacts as the patient has.
 
-.. image:: ../Images/img-hopit/param.jpg
-.. centered:: Medical Parameters.
+.. image:: ../Images/img-hopit/AjouterContact.jpg
+.. centered:: Add a contact.
 
-Patient Contacts
-----------------
-Here, you are asked to enter the patient's contacts, which will be displayed in a table, and you can add as many contacts as the patient has.
-
-.. image:: ../Images/img-hopit/contac.jpg
-.. centered:: Patient Contacts.
-
-When you click the button to add a contact, a dialog box will appear, and you must enter the contact details.
+When you click on the **+** button to add a contact, 
+a dialog box will appear where you must enter their contact details 
+and confirm the addition by clicking the **Add** button.
 
 .. image:: ../Images/img-hopit/add_con.jpg
-.. centered:: Add a New Contact.
+.. centered:: Add a new contact.
 
-Enrich the Medical Record
-=========================
-After adding the medical record, the record status changes to "OPENED." At this point, the hospital agent can only view, edit, or close the medical record if the patient's treatments have been completed.
+Finally, click the **Save** button to finalize the addition of the medical record.
 
-.. image:: ../Images/img-hopit/en_savo.jpg
-.. centered:: Learn More.
+.. image:: ../Images/img-hopit/finaliser_dos.jpg
+.. centered:: Finalize the medical record.
 
-Edit the Medical Record
------------------------
-When you click "Edit," pre-filled form fields from the initial medical record entry are displayed with the previous values, which you can change as needed. After modifying these fields, click "Save" to save your changes.
+By clicking on the area represented by **1** in the image below, 
+we can show or hide the medical record information.
 
-.. image:: ../Images/img-hopit/modi.jpg
-.. centered:: Editing a Medical Record.
+.. image:: ../Images/img-hopit/Visualiser_dos.jpg
+.. centered:: View the medical record.
 
-Basic Information
-~~~~~~~~~~~~~~~~~~~
+Enriching the Medical Record
+============================
+After adding the medical record, its status changes to "OPENED," 
+and at this point, the hospital agent can only view, modify, generate a PDF, or transfer the medical record.
 
-.. image:: ../Images/img-hopit/base_mofi.jpg
-.. centered:: Editing Basic Information.
+.. image:: ../Images/img-hopit/DossierMedicaux.jpg
+.. centered:: Medical Records & Statuses.
 
-Accident-related Information
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. image:: ../Images/img-hopit/acc_modif.jpg
-.. centered:: Editing Accident Information.
+The image below presents the list of operations that can be performed on a medical record to enrich it.
 
-Description
-~~~~~~~~~~~
-.. image:: ../Images/img-hopit/desc_modif.jpg
-.. centered:: Editing the Description.
+.. _refMedicalRecordOperations:
+
+.. image:: ../Images/img-hopit/OperationsDossierMedical.jpg
+.. centered:: Operations on a medical record.
+
+The numbers above illustrate the operations that can be performed on a medical record as follows:
+
+**1** :ref:`Care transfer <TransferCare>`
+
+**2** :ref:`Modify the medical record <ModifyMedicalRecord>`
+
+**3** :ref:`View as PDF <ViewPDF>`
+
+**4** :ref:`Add medical document <AddMedicalDocument>`
+
+.. _TransferCare:
+
+Care Transfer
+-------------
+
+Click on **1** as shown in :ref:`the following image <refMedicalRecordOperations>`, 
+to initiate a care transfer.
+
+A window appears where you need to enter the information about the hospital where the transfer 
+will take place, the care status, the transfer method, and a description of the care status. 
+Click the **Create** button to confirm the transfer.
+
+The image below shows the window that appears after clicking the **1** button.
+
+.. image:: ../Images/img-hopit/TransfertSoins.jpg
+.. centered:: Care transfer.
+
+.. _ModifyMedicalRecord:
+
+Modify the Medical Record
+-------------------------
+
+Click on **2** as shown in :ref:`the following image <refMedicalRecordOperations>`, 
+to modify the previously recorded information in the medical record. Modify 
+the necessary details, then click the **Save** button at the bottom of the page.
+
+The following image shows the interface for modifying medical record information, 
+and the second image shows the button to save the modifications.
+
+.. image:: ../Images/img-hopit/ModificationDossierMedical.jpg
+.. centered:: Modify medical record information.
+
+.. image:: ../Images/img-hopit/ValiderModificationsDossierMedical.jpg
+.. centered:: Confirm modifications to the medical record.
+
+**NB:** If you encounter issues with the information entry process, please refer to 
+:ref:`the procedure for adding a medical record <refProcedureAddMedicalRecord>`.
+
+.. _ViewPDF:
+
+View as PDF
+-----------
+
+Click on **3** as shown in :ref:`the following image <refMedicalRecordOperations>`, 
+to view the medical record as a PDF.
+
+The following image shows the medical record view in PDF format, with download and print options highlighted.
+
+.. image:: ../Images/img-hopit/VisualisationDossierMedical.jpg
+.. centered:: View medical record as PDF.
+
+.. _AddMedicalDocument:
+
+Add Medical Document
+--------------------
+
+Click on **4** as shown in :ref:`the following image <refMedicalRecordOperations>`, 
+to add a medical document. The following image shows the interface that appears:
+
+.. image:: ../Images/img-hopit/DocumentMedical.jpg
+.. centered:: Medical document sections.
+
+The medical document consists of:
+
+* :ref:`Medical parameters <MedicalParameters>`
+* :ref:`Care examinations <CareExaminations>`
+* :ref:`Care treatments <CareTreatments>`
+* :ref:`Care medications <CareMedications>`
+* :ref:`Diagnoses <Diagnoses>`
+* :ref:`Care rooms <CareRooms>`
+
+However, we can always view patient information by clicking on their name.
+
+.. image:: ../Images/img-hopit/InfosPatient.jpg
+.. centered:: Patient information.
+
+In the next sections, we will explain how to complete the elements of the medical record.
+
+.. _MedicalParameters:
 
 Medical Parameters
-~~~~~~~~~~~~~~~~~~~
-.. image:: ../Images/img-hopit/param_modif.jpg
-.. centered:: Editing Medical Parameters.
+~~~~~~~~~~~~~~~~~~
 
-Patient Contacts
-~~~~~~~~~~~~~~~~~~~
-.. image:: ../Images/img-hopit/contac_modif.jpg
-.. centered:: Editing Patient Contacts.
+The image below shows the form used to collect the patient's medical parameters.
 
-When you click the edit icon for a contact, a dialog box opens with the old values, and you must modify the fields you want and then click the "Edit" button. You will receive a confirmation message.
+.. image:: ../Images/img-hopit/ParametreMedicaux.jpg
+.. centered:: Medical parameters form.
 
-.. image:: ../Images/img-hopit/contac_det.jpg
-.. centered:: Editing a Patient's Contact.
+Once the form is completed, click the **Save** button to store the entered parameters.
 
-Treatments
-~~~~~~~~~~~
-During the initial addition of a medical record, the treatment field was not added. Therefore, during enrichment, you provide the treatments the patient will need.
+.. image:: ../Images/img-hopit/SauvegarderParametreMedicaux.jpg
+.. centered:: Save medical parameters.
 
-.. image:: ../Images/img-hopit/soins.jpg
-.. centered:: List of Treatments.
+.. _CareExaminations:
 
-After adding a treatment, it will have the status "PENDING," but after the treatment is approved by insurance, the status will change to "ACCEPTED."
+Care Examinations
+~~~~~~~~~~~~~~~~~
 
-When you want to add a treatment, a dialog box is displayed where you must enter the date, time, and value of the treatments, then save the treatment by clicking the "Add" button.
+The image below shows the interface for prescribing examinations for a patient.
+The actions that can be performed here are:
 
-.. image:: ../Images/img-hopit/add_soin.jpg
-.. centered:: Add a Treatment.
+* Prescribing a new examination
+* Updating examination prescription details
+* Deleting an examination prescription
 
-Examinations
-~~~~~~~~~~~~
-During the initial addition of a medical record, the examination field was not added. Therefore, during enrichment, you provide the examinations the patient will need.
+.. _refCareExaminations:
 
-.. image:: ../Images/img-hopit/exam.jpg
-.. centered:: List of Examinations.
+.. image:: ../Images/img-hopit/PrescriptionExamenSoins.jpg
+.. centered:: Care examination prescriptions.
 
-After adding an examination, it will have the status "PENDING," but after the examination is approved by insurance, the status will change to "ACCEPTED."
+When clicking on **+** to prescribe an examination as indicated :ref:`here <refCareExaminations>`, 
+a window appears to enter the prescription details.
 
-When you want to add an examination, a dialog box is displayed where you must enter the date, time, and value of the examinations, then save the examination by clicking the "Add" button.
+Finally, click the **Create** button to validate the prescription.
+The image below illustrates this scenario.
 
-.. image:: ../Images/img-hopit/add_soin.jpg
-.. centered:: Add an Examination.
+.. image:: ../Images/img-hopit/AjoutPrescriptionExamenSoins.jpg
+.. centered:: Add a prescription.
 
-Traumas
-~~~~~~~
-During the initial addition of a medical record, the trauma field was not added. Therefore, during enrichment, you provide the traumas the patient has.
+To modify a prescription, click the modification button as shown in 
+:ref:`the following image <refCareExaminations>`. A window will appear to update the previous prescription information.
 
-.. image:: ../Images/img-hopit/Traula.jpg
-.. centered:: List of Examinations.
+Click the **Save** button to confirm the modification.
+The image below illustrates this scenario.
 
-When you want to add a trauma, a dialog box is displayed where you must enter the date, time, and value of the treatments, then save the trauma by clicking the "Add" button.
+.. image:: ../Images/img-hopit/ModifierPrescriptionExamenSoins.jpg
+.. centered:: Modify a prescription.
 
-.. image:: ../Images/img-hopit/add_soin.jpg
-.. centered:: Add a Trauma.
+To delete a prescription, click the delete button as shown in 
+:ref:`the following image <refCareExaminations>`. A window will appear for confirmation.
 
-Close the Medical Record
-========================
-When you click "Learn More" on the medical record from the home page, you can decide to close the medical record if all treatment fees have been paid. When you decide to close the medical record, a confirmation dialog box appears. To confirm the closure, click "OK"; to cancel, click "Cancel." After closing the record, its status changes to "CLOSED." In this state, the hospital agent can only review and print the invoice for the record by clicking on "Learn More."
+Click **Delete** to confirm or **Cancel** to discard the deletion.
+The image below illustrates this scenario.
 
-.. image:: ../Images/img-hopit/close.jpg
-.. centered:: Closed Medical Records.
+.. image:: ../Images/img-hopit/SupprimerPrescriptionExamenSoins.jpg
+.. centered:: Delete a prescription.
 
-When you click "Invoice," to print the invoice, click "Print."
+.. _CareTreatments:
 
-.. image:: ../Images/img-hopit/fact.jpg
-.. centered:: Invoices for a Closed Medical Record.
+Care Treatments
+~~~~~~~~~~~~~~~
 
-List of Treatments
-==================
-To access the list of treatments, click on the "Hospital" tab, then on the "Treatments" tab.
+The actions that can be performed here are:
 
-.. image:: ../Images/img-hopit/soin.jpg
-.. centered:: List of All Available Treatments in the Center.
+* Prescribing a treatment
+* Updating treatment prescription details
+* Deleting a treatment prescription
 
-List of Examinations
-====================
-To access the list of examinations, click on the "Hospital" tab, then on the "Examinations" tab.
+These actions follow the same process as described in :ref:`the prescription above <refCareExaminations>`.
 
-.. image:: ../Images/img-hopit/exame.jpg
-.. centered:: List of All Examinations.
+.. _CareMedications: 
 
-List of Traumas
-===============
-To access the list of traumas, click on the "Hospital" tab, then on the "Traumas" tab.
+Care Medications
+~~~~~~~~~~~~~~~~
 
-.. image:: ../Images/img-hopit/Trauma.jpg
-.. centered:: List of All Traumas.
+The actions that can be performed here are:
+
+* Prescribing a new medication
+* Updating medication prescription details
+* Deleting a medication prescription
+
+These actions follow the same process as described in :ref:`the prescription above <refCareExaminations>`.
+
+.. _Diagnoses:
+
+Diagnoses
+~~~~~~~~~
+
+The actions that can be performed here are:
+
+* Prescribing a new diagnosis
+* Updating diagnosis prescription details
+* Deleting a diagnosis prescription
+
+These actions follow the same process as described in :ref:`the prescription above <refCareExaminations>`.
+
+.. _CareRooms:
+
+Care Rooms
+~~~~~~~~~~
+
+The actions that can be performed here are:
+
+* Assigning a patient to a care room
+* Updating care room assignment details
+* Deleting a care room assignment
+
+These actions follow the same process as described in :ref:`the prescription above <refCareExaminations>`.
+
+List of Transferred Patients in the Hospital
+============================================
+
+To view the list of transferred patients and admitted patients with an existing medical record, 
+click the **Care Transfer** button as shown in the image below.
+
+.. image:: ../Images/img-hopit/InterfacePatientsTransferes.jpg
+.. centered:: Button to access the list of transferred patients.
+
+Once you click the **Care Transfer** button, you can see the list of transferred patients and admitted patients with a medical record.
+
+.. _refTransferredPatientsList:
+
+.. image:: ../Images/img-hopit/ListePatientsTransferes.jpg
+.. centered:: List of transferred patients.
+
+On the interface above, you can:
+
+* View patient information
+* Check their medical history
+
+To view the transferred patient's information, simply click on their name, as shown in 
+:ref:`the following image <refTransferredPatientsList>`.
+
+You will get an interface similar to the one below.
+
+.. image:: ../Images/img-hopit/InfosPatientsTransferes.jpg
+.. centered:: Transferred patient information.
+
+To view the transferred patient's medical history, click the medical history button, 
+as shown in :ref:`the following image <refTransferredPatientsList>`.
+
+You will get an interface similar to the one below.
+
+.. image:: ../Images/img-hopit/AntecedantsPatientsTransferes.jpg
+.. centered:: Transferred patient's medical history.
+
+We can see that the medical document consists of:
+
+* Medical parameters
+* Care examinations
+* Care treatments
+* Care medications
+* Diagnoses
+
+**NB:** To view each section of the medical record, simply click on the desired section.
+
+
