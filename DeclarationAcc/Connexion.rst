@@ -3,7 +3,7 @@ Connecting to the DATA COLLECTION Web Application
 
 This procedure is performed by the collector agent who goes to the accident sites to gather information about the accident.
 
-In the search bar of your browser, enter the server IP address. In our case, it is **“51.195.11.202:8098”**. Then press the “Enter” key on your keyboard.
+In the search bar of your browser, enter the server IP address. In our case, it is **« 51.195.80.167:8098 »**. Then press the “Enter” key on your keyboard.
 
     * **Enter your login credentials (username and password)**
 
