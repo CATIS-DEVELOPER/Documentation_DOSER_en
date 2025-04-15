@@ -14,6 +14,6 @@ You will be presented with a login interface. Enter your login credentials:
 
 Then click **“LOGIN”**.
 
-.. image:: ../Images/img-police1&2/acc_inf.jpg
+.. image:: ../Images/img-police1&2/Connex.jpg
     :name: Application Login
 .. centered:: Application Login
